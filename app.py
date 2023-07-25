@@ -18,6 +18,6 @@ def fun2():
     #return render_template("second.html", name = nm , salary = sal )
     
 if __name__ == "__main__" :
-    app.run(debug=True)
-     #app.run(host='0.0.0.0', port=8080)
+    #app.run(debug=True)
+    app.run(host='0.0.0.0', port=8080)
 
